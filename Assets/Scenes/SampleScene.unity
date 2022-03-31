@@ -305,7 +305,7 @@ MonoBehaviour:
         m_CallState: 2
   AutoStart: 1
   AutoRestart: 1
-  CountDownTime: 2
+  CountDownTime: 0.2
 --- !u!1 &766768620
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 1516826173}
   - component: {fileID: 1516826175}
   - component: {fileID: 1516826174}
+  - component: {fileID: 1516826176}
   m_Layer: 5
   m_Name: test
   m_TagString: GameController
@@ -578,6 +579,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516826172}
   m_CullTransparentMesh: 1
+--- !u!114 &1516826176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516826172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01ab3a56a5c7564fbc211e5b73dd3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575876750
 GameObject:
   m_ObjectHideFlags: 0

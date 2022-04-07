@@ -427,7 +427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -259}
+  m_AnchoredPosition: {x: 0, y: -247}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301361389
@@ -1047,7 +1047,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -175}
+  m_AnchoredPosition: {x: 0, y: -93}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801510050
@@ -1327,7 +1327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d59c3240f54d3e4aa4208872f1f788d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MascotMood: 0
 --- !u!1 &1226893688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,7 +1621,8 @@ MonoBehaviour:
   - {fileID: 1226893690}
   - {fileID: 1842906357}
   - {fileID: 140088284}
-  questionCard: {fileID: 11400000, guid: 3b96817f64f3f944bac04ea6a4f81e35, type: 2}
+  questionCard: {fileID: 11400000, guid: dc6f8e3eb51f8874bbd4b37642cba284, type: 2}
+  currentQuestion: 0
 --- !u!1 &1479557778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,7 +1858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -220}
+  m_AnchoredPosition: {x: 0, y: -177}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678383323

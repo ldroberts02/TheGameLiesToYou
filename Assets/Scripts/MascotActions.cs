@@ -5,7 +5,7 @@ using UnityEngine;
 public class MascotActions : MonoBehaviour
 {
 
-    public int MascotMood;
+    public static int MascotMood;
     
     
     // Start is called before the first frame update

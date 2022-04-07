@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Copy pastable code - Make a New > C# Script and call it setCursor.cs
-//Then, add this code in.
-
 public class setCursor : MonoBehaviour
 {
     // You must set the cursor in the inspector.
@@ -15,7 +12,7 @@ public class setCursor : MonoBehaviour
     {
 
         //set the cursor origin to its centre. (default is upper left corner)
-        Vector2 cursorOffset = new Vector2(crosshair[0].width / 2, crosshair[0].height / 2);
+        Vector2 cursorOffset = new Vector2(crosshair[0].width / 6, crosshair[0].height / 6);
 
         //Sets the cursor to the Crosshair sprite with given offset 
         //and automatic switching to hardware default if necessary
@@ -29,7 +26,7 @@ public class setCursor : MonoBehaviour
             index = 0;
 
         //set the new cursor
-        Vector2 cursorOffset = new Vector2(crosshair[index].width / 2, crosshair[index].height / 2);
+        Vector2 cursorOffset = new Vector2(crosshair[index].width / 6, crosshair[index].height / 6);
 
         //Sets the cursor to the Crosshair sprite with given offset 
         //and automatic switching to hardware default if necessary

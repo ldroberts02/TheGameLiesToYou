@@ -702,7 +702,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &419333814
+--- !u!1 &569162834
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -710,57 +710,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 419333816}
-  - component: {fileID: 419333815}
-  - component: {fileID: 419333817}
+  - component: {fileID: 569162837}
+  - component: {fileID: 569162836}
+  - component: {fileID: 569162835}
   m_Layer: 0
-  m_Name: SetCursor
+  m_Name: CursorSprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &419333815
+--- !u!114 &569162835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419333814}
+  m_GameObject: {fileID: 569162834}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f62a35034b2ec1f45ad7ee0ec8e72d03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshair:
-  - {fileID: 2800000, guid: af7de2963f530b04cb9a4cc70649ec3f, type: 3}
-  - {fileID: 2800000, guid: c5820349330ebeb4ca8c41388d4a364e, type: 3}
-  - {fileID: 2800000, guid: 601b90b28c6174545823e4f5d4321762, type: 3}
-  - {fileID: 2800000, guid: eb2ca572150b2864d9cd745641a4294f, type: 3}
-  - {fileID: 2800000, guid: d10aa6cbeb015fc4b9af18b9ed332776, type: 3}
-  - {fileID: 2800000, guid: 48dd37e88ae274d4b87ed52b40929e62, type: 3}
+  timer: {fileID: 569162836}
+  cursorSprites:
+  - CursorName: FlSword
+    Sprites:
+    - {fileID: 2800000, guid: af7de2963f530b04cb9a4cc70649ec3f, type: 3}
+    - {fileID: 2800000, guid: c5820349330ebeb4ca8c41388d4a364e, type: 3}
+    - {fileID: 2800000, guid: 601b90b28c6174545823e4f5d4321762, type: 3}
+    - {fileID: 2800000, guid: eb2ca572150b2864d9cd745641a4294f, type: 3}
+    - {fileID: 2800000, guid: d10aa6cbeb015fc4b9af18b9ed332776, type: 3}
+    - {fileID: 2800000, guid: 48dd37e88ae274d4b87ed52b40929e62, type: 3}
+  - CursorName: Gun
+    Sprites:
+    - {fileID: 2800000, guid: a69507019eca44a43bf12800a80d1769, type: 3}
   index: 0
---- !u!4 &419333816
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419333814}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 554.93274, y: 232.40553, z: -121.99581}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &419333817
+  cursorName: FlSword
+--- !u!114 &569162836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419333814}
+  m_GameObject: {fileID: 569162834}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5e335bd5a8ad344c90f0298b4ea4a2a, type: 3}
@@ -769,9 +762,9 @@ MonoBehaviour:
   TimeOut:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 419333815}
+      - m_Target: {fileID: 569162835}
         m_TargetAssemblyTypeName: setCursor, Assembly-CSharp
-        m_MethodName: updateCursor
+        m_MethodName: UpdateCursor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -781,9 +774,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  AutoStart: 1
+  AutoStart: 0
   AutoRestart: 1
-  CountDownTime: 0.1
+  CountDownTime: 0.2
+--- !u!4 &569162837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569162834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 412.5637, y: 233.50587, z: -26.693447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &683768715
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,3 +1,11 @@
+/*MultipleChoiceQuestions.cs
+this script is for the text and buttons inside the game, and will use this alongside the other question scripts to determine multiple factors.
+Variables
+SetCursor - 
+
+
+
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,7 +59,13 @@ public class MultipleChoiceQuestions : MonoBehaviour
             //here should go code that calls the MascotActions and lowers the mood by 1
         }
 
+        //below is what to do AFTER both right and wrong answers have been considered
+
         currentQuestion++; //increments the currentQuestion variable, which in turn allows for the next line to function
+        if (currentQuestion >= questionArray.Question.Count)
+        {
+            return; //if the maximum questions have been reached in a list
+        }
         questionText.text = questionArray.Question[currentQuestion].question; //using the previous line, it checks for the number of the question in the array of questions, which in turn updates all text that is tied to this
 
         for(int i = 0; i < 4; i++)

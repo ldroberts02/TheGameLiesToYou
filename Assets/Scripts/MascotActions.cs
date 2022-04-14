@@ -26,6 +26,7 @@ public class MascotActions : MonoBehaviour
 	public Image MascotImage;
 	public Sprite MascotSprite;
 	//change to maybe a list for the texture 2d and make the naming less confusing
+    public List<MascotTexture> MascotList;
     
     // Start is called before the first frame update
     void Start()
@@ -38,7 +39,8 @@ public class MascotActions : MonoBehaviour
 		{
 			//set sprite to happy
 
-            //MascotSprite = UnityEngine.Sprite("Face_Expressions_8");
+
+
 			//check for this, and see how to change the material, maybe use "Material.SetTexture"
 
 
@@ -46,9 +48,19 @@ public class MascotActions : MonoBehaviour
 		
     }
 
-    // Update is called once per frame, dont need it here (yet)
-    void Update()
-    {
-        
-    }
+    
+
+
+
+}
+
+[System.Serializable]
+public class MascotTexture //using this class, the code will call for a sprite change for the mascot entity, using this, it will assign sprites to strings, so you could call the string "happy" and it will give a happy sprite.
+{
+    public string namecode;
+    public Sprite spritefunction; //change later
+
+
+
+
 }

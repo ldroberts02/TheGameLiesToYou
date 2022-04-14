@@ -1,0 +1,951 @@
+fileFormatVersion: 2
+guid: 456cca7570a27da4bb86af2c2a9658db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3316240349201913611
+    second: Face_Expressions_0
+  - first:
+      213: -3716468638248440740
+    second: Face_Expressions_1
+  - first:
+      213: 1232997710225211808
+    second: Face_Expressions_2
+  - first:
+      213: 1671247735283021027
+    second: Face_Expressions_3
+  - first:
+      213: -7272283934760093886
+    second: Face_Expressions_4
+  - first:
+      213: 8376407709446387772
+    second: Face_Expressions_5
+  - first:
+      213: -1917965101378493189
+    second: Face_Expressions_6
+  - first:
+      213: -1958579901498917074
+    second: Face_Expressions_7
+  - first:
+      213: 4738075936660812268
+    second: Face_Expressions_8
+  - first:
+      213: -115374782904888082
+    second: Face_Expressions_9
+  - first:
+      213: -1941445286978685276
+    second: Face_Expressions_10
+  - first:
+      213: -6964006382284010411
+    second: Face_Expressions_12
+  - first:
+      213: 7083683745248755139
+    second: Face_Expressions_13
+  - first:
+      213: -1429309647772175006
+    second: Face_Expressions_14
+  - first:
+      213: 7521185084478931136
+    second: Face_Expressions_15
+  - first:
+      213: 3540879977391627628
+    second: Face_Expressions_16
+  - first:
+      213: -5006140110591689482
+    second: Face_Expressions_17
+  - first:
+      213: -4841632127680171270
+    second: Face_Expressions_19
+  - first:
+      213: -7312798102105284034
+    second: Face_Expressions_20
+  - first:
+      213: 2493012866066531907
+    second: Face_Expressions_21
+  - first:
+      213: 3283634102167569906
+    second: Face_Expressions_22
+  - first:
+      213: -8044635473692442434
+    second: Face_Expressions_23
+  - first:
+      213: -8985185519280250786
+    second: Face_Expressions_26
+  - first:
+      213: -231248785523817679
+    second: Face_Expressions_27
+  - first:
+      213: -6691674036231232441
+    second: Face_Expressions_28
+  - first:
+      213: -1007778068078109570
+    second: Face_Expressions_29
+  - first:
+      213: 460741655844938995
+    second: Face_Expressions_30
+  - first:
+      213: -1339304073900151243
+    second: Face_Expressions_31
+  - first:
+      213: -8158917006835055523
+    second: Face_Expressions_32
+  - first:
+      213: 3475118475884249687
+    second: Face_Expressions_33
+  - first:
+      213: 3203344894652840417
+    second: Face_Expressions_34
+  - first:
+      213: -3803210814650908259
+    second: Face_Expressions_35
+  - first:
+      213: 8718975637661479206
+    second: Face_Expressions_36
+  - first:
+      213: 4323326478270388573
+    second: Face_Expressions_37
+  - first:
+      213: -141461245049288490
+    second: Face_Expressions_38
+  - first:
+      213: -9059413639116969068
+    second: Face_Expressions_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Face_Expressions_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1660
+        width: 271
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b075ff30707a50e20800000000000000
+      internalID: 3316240349201913611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_1
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1660
+        width: 270
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c6256d6737c6cc0800000000000000
+      internalID: -3716468638248440740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_2
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1660
+        width: 270
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a108de72ec7c1110800000000000000
+      internalID: 1232997710225211808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_3
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1660
+        width: 269
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e47839e5f6713710800000000000000
+      internalID: 1671247735283021027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_5
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1660
+        width: 317
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38356f7e6afe3470800000000000000
+      internalID: 8376407709446387772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_6
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1660
+        width: 270
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf42db0f6e40265e0800000000000000
+      internalID: -1917965101378493189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_7
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 1660
+        width: 270
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fffe2e4f9b1d4e0800000000000000
+      internalID: -1958579901498917074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1304
+        width: 271
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce17e7306f601c140800000000000000
+      internalID: 4738075936660812268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1304
+        width: 269
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee49ae80f3b166ef0800000000000000
+      internalID: -115374782904888082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_10
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1254
+        width: 321
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a677c63cc99e05e0800000000000000
+      internalID: -1941445286978685276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_12
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1304
+        width: 269
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c886a9711ea5f90800000000000000
+      internalID: -6964006382284010411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_13
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1304
+        width: 277
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdb2c8d5dc4e4260800000000000000
+      internalID: 7083683745248755139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_14
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1253
+        width: 296
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265308ab2721a2ce0800000000000000
+      internalID: -1429309647772175006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_15
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 1304
+        width: 270
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c045524cfd906860800000000000000
+      internalID: 7521185084478931136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 973
+        width: 271
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d98bc349bb32130800000000000000
+      internalID: 3540879977391627628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_17
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 973
+        width: 327
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcf854d71e968ab0800000000000000
+      internalID: -5006140110591689482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_19
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 973
+        width: 271
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af231806b311fccb0800000000000000
+      internalID: -4841632127680171270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_20
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 973
+        width: 269
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e322dd9fed8b38a90800000000000000
+      internalID: -7312798102105284034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_21
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 973
+        width: 271
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346cf5e3ef5f89220800000000000000
+      internalID: 2493012866066531907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_22
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 973
+        width: 271
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f58e0881dfc19d20800000000000000
+      internalID: 3283634102167569906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_23
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 973
+        width: 271
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb04e03b8a6bb5090800000000000000
+      internalID: -8044635473692442434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 583
+        width: 271
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50215230653e4380800000000000000
+      internalID: -8985185519280250786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 583
+        width: 269
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133cc1c64707accf0800000000000000
+      internalID: -231248785523817679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_28
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 583
+        width: 269
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744abb50be56223a0800000000000000
+      internalID: -6691674036231232441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_29
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 580
+        width: 269
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c56cfbf27a302f0800000000000000
+      internalID: -1007778068078109570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_30
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 583
+        width: 271
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4ecd94812e46600800000000000000
+      internalID: 460741655844938995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_31
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 580
+        width: 270
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ea2fc6a06d96de0800000000000000
+      internalID: -1339304073900151243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_32
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 580
+        width: 270
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5404b7c534b5ce80800000000000000
+      internalID: -8158917006835055523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 155
+        width: 271
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7524a7387d91a3030800000000000000
+      internalID: 3475118475884249687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_34
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 155
+        width: 269
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9f7daa531947c20800000000000000
+      internalID: 3203344894652840417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_35
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 155
+        width: 269
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d910fc21ae7483bc0800000000000000
+      internalID: -3803210814650908259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_36
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 155
+        width: 271
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621f818b526000970800000000000000
+      internalID: 8718975637661479206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_37
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 149
+        width: 275
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59d859a68a8ffb30800000000000000
+      internalID: 4323326478270388573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_38
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 155
+        width: 270
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d84a534fbd690ef0800000000000000
+      internalID: -141461245049288490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face_Expressions_39
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 155
+        width: 271
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49baa174b4f764280800000000000000
+      internalID: -9059413639116969068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,9 +7,13 @@ public class MultipleChoiceQuestions : MonoBehaviour
 {
     public TMP_Text questionText;
     public List<TMP_Text> answerTexts;
-    public QuestionCard questionCard;
+    public QuestionCard questionCard; //prob get rid of this, or rewrite any mention of it
     public int currentQuestion;
 
+	public setCursor SetCursor;
+//calls setcursor.cs
+	public QuestionArray questionArray;
+//calls QuestionArray.cs
 
     // Start is called before the first frame update
     void Start()
@@ -23,21 +27,36 @@ public class MultipleChoiceQuestions : MonoBehaviour
     }
 
 
-    public void ButtonPressed(int index)
+    public void ButtonPressed(int index) //for when the button is pressed, it should progress the question as well as consider it correct or incorrect, but it should not use currentQuestion ++; more than ONCE.
     {
         //Debug.Log(answerTexts[index].text);
 
         if (index == questionCard.correctAnswer)
         {
-            Debug.Log("Correct");
-            currentQuestion++;
+            //Debug.Log("Correct");
+			SetCursor.cursorName = "Gun";		
+		
+			//right here is code thats gonna check the question array, then check the question to update to, so array goes from 0 to 1, then updates text.
+			
+			//to call questionArray, use questionArray.Question[currentQuestion].(name of either question, answer, or something else)
         }
 
-        else if (index == questionCard.correctAnswer)
+        else if (index != questionCard.correctAnswer)
         //here goes the raise mood by 1, max 8
         {
-            Debug.Log("Wrong");
+            //Debug.Log("Wrong");
+			
+			SetCursor.cursorName = "FlSword";	
+			
             //here should go code that calls the MascotActions and lowers the mood by 1
+        }
+
+        currentQuestion++; //increments the currentQuestion variable, which in turn allows for the next line to function
+        questionText.text = questionArray.Question[currentQuestion].question; //using the previous line, it checks for the number of the question in the array of questions, which in turn updates all text that is tied to this
+
+        for(int i = 0; i < 4; i++)
+        {
+            answerTexts[i].text = questionArray.Question[currentQuestion].answers[i]; //to call questionArray, use questionArray.Question[currentQuestion].(name of either question, answer, or something else)
         }
     }
 

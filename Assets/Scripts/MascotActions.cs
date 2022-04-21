@@ -38,8 +38,7 @@ public class MascotActions : MonoBehaviour
 		if (MascotHappy && (MascotMood == 8)) //if mascothappy is true, and mascotmood is equal to 8, then do below this
 		{
 			//set sprite to happy
-
-
+           // MascotList["Happy"]
 
 			//check for this, and see how to change the material, maybe use "Material.SetTexture"
 
@@ -48,9 +47,26 @@ public class MascotActions : MonoBehaviour
 		
     }
 
-    
+public int getMascotIndex(string n) //n is local variable to call
+{
+    for(int i = 0; i < MascotList.Count; i++)
+    {
+        if (MascotList[i].namecode == n)
+        return i;
+    }
+    return 0;
+}    
 
-
+public void updateMascot()
+{
+    Debug.Log("updateMascot Called");
+    //MascotImage.sprite = MascotList[getMascotIndex("Sad")].spritefunction; //use this to call function based on mascotlist
+    if((MascotMood > 4) && (MascotHappy == true))
+    {
+        MascotImage.sprite = MascotList[getMascotIndex("Happy")].spritefunction;
+        Debug.Log("CHANGED SPRITE TO HAPPY");
+    }
+}
 
 }
 
@@ -64,3 +80,4 @@ public class MascotTexture //using this class, the code will call for a sprite c
 
 
 }
+

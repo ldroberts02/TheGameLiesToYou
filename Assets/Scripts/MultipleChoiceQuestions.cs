@@ -18,6 +18,8 @@ public class MultipleChoiceQuestions : MonoBehaviour
     public QuestionCard questionCard; //prob get rid of this, or rewrite any mention of it
     public int currentQuestion;
 
+    public MascotActions MascotActionsScript; //calls mascot actions script
+
 	public setCursor SetCursor;
 //calls setcursor.cs
 	public QuestionArray questionArray;
@@ -44,6 +46,8 @@ public class MultipleChoiceQuestions : MonoBehaviour
             //Debug.Log("Correct");
 			SetCursor.cursorName = "Gun";		
 		
+            MascotActionsScript.updateMascot();    
+
 			//right here is code thats gonna check the question array, then check the question to update to, so array goes from 0 to 1, then updates text.
 			
 			//to call questionArray, use questionArray.Question[currentQuestion].(name of either question, answer, or something else)

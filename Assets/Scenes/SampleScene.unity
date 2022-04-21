@@ -1412,12 +1412,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MascotMood: 8
   MascotAngry: 0
-  MascotHappy: 0
+  MascotHappy: 1
   MascotImage: {fileID: 1073428631}
-  MascotSprite: {fileID: -115374782904888082, guid: 456cca7570a27da4bb86af2c2a9658db, type: 3}
+  MascotSprite: {fileID: 3316240349201913611, guid: 456cca7570a27da4bb86af2c2a9658db, type: 3}
   MascotList:
   - namecode: Default
-    spritefunction: {fileID: 0}
+    spritefunction: {fileID: 3316240349201913611, guid: 456cca7570a27da4bb86af2c2a9658db, type: 3}
+  - namecode: Happy
+    spritefunction: {fileID: -3716468638248440740, guid: 456cca7570a27da4bb86af2c2a9658db, type: 3}
+  - namecode: Sad
+    spritefunction: {fileID: 8376407709446387772, guid: 456cca7570a27da4bb86af2c2a9658db, type: 3}
 --- !u!1 &1226893688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1718,7 @@ MonoBehaviour:
   - {fileID: 140088284}
   questionCard: {fileID: 11400000, guid: 3b96817f64f3f944bac04ea6a4f81e35, type: 2}
   currentQuestion: 0
+  MascotActionsScript: {fileID: 1185726744}
   SetCursor: {fileID: 569162835}
   questionArray: {fileID: 11400000, guid: 53317b928a058f24ca493be577a14208, type: 2}
 --- !u!1 &1479557778

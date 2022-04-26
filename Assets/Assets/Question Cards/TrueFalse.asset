@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8282ee97eaa6ff4baf57c384b974bf1, type: 3}
-  m_Name: MultiChoice
+  m_Name: TrueFalse
   m_EditorClassIdentifier: 
   Question:
-  - {fileID: 11400000, guid: 3b96817f64f3f944bac04ea6a4f81e35, type: 2}
-  - {fileID: 11400000, guid: dc6f8e3eb51f8874bbd4b37642cba284, type: 2}
-  - {fileID: 11400000, guid: 1b7e03bf058c3554e804b59c3fb80e22, type: 2}
+  - {fileID: 11400000, guid: 5995344e498e83a42ab3a076213cd830, type: 2}

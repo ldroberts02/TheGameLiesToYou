@@ -43,7 +43,7 @@ public class MultipleChoiceQuestions : MonoBehaviour
 
         if (index == questionCard.correctAnswer)
         {
-            //Debug.Log("Correct");
+            Debug.Log("Correct");
 			SetCursor.cursorName = "Gun";		
 		
             MascotActionsScript.updateMascot();    

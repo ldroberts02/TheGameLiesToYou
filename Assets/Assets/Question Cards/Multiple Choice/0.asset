@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fd267765e836547b4c33f420c6c4f3, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  question: The answer is C!
+  question: The answer is B!
   answers:
-  - 'A: Yep, sure is! (ITS HERE)'
+  - 'A: Yep, sure is!'
   - 'B: Yep, sure is!'
   - 'C: Yep, sure is!'
   - 'D: Yep, sure is!'

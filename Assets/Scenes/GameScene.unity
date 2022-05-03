@@ -2057,7 +2057,7 @@ MonoBehaviour:
   - {fileID: 1226893690}
   - {fileID: 1842906357}
   - {fileID: 140088284}
-  questionCard: {fileID: 11400000, guid: 3b96817f64f3f944bac04ea6a4f81e35, type: 2}
+  questionCard: {fileID: 0}
   currentQuestion: 0
   MascotActionsScript: {fileID: 1185726744}
   SetCursor: {fileID: 569162835}
@@ -2345,7 +2345,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 38.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2737,8 +2737,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 764, y: -484}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 632, y: -516}
+  m_SizeDelta: {x: 160, y: 136.715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994495523
 MonoBehaviour:

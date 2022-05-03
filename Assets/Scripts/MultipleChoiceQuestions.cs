@@ -29,16 +29,17 @@ public class MultipleChoiceQuestions : MonoBehaviour
 
     void Start()
     {
+        //questionCard = questionArray.Question[currentQuestion].correctAnswer;
         
-        questionText.text = questionCard.question;
+        questionText.text = questionArray.Question[currentQuestion].question;
 
         for(int i = 0; i < 4; i++) //this loop means that, starting with i is set equal to zero, do what is inside of it, so on start, increase  i by one, then do the thing, then add 1, until it reaches zero
         {
 
-            answerTexts[i].text = questionCard.answers[i];
+            answerTexts[i].text = questionArray.Question[currentQuestion].answers[i];
         }
         
-        questionCard.correctAnswer = questionArray.Question[currentQuestion].correctAnswer;
+        
 
     }
 
@@ -48,7 +49,7 @@ public class MultipleChoiceQuestions : MonoBehaviour
         //Debug.Log(answerTexts[buttonnum].text);
 
 
-        if (buttonnum == questionCard.correctAnswer)
+        if (buttonnum == questionArray.Question[currentQuestion].correctAnswer)
         {
             //Debug.Log("Correct");
 			SetCursor.cursorName = "Gun";		
@@ -58,8 +59,7 @@ public class MultipleChoiceQuestions : MonoBehaviour
 
         }
 
-        else if (buttonnum != questionCard.correctAnswer)
-        //here goes the raise mood by 1, max 8
+        else if (buttonnum != questionArray.Question[currentQuestion].correctAnswer)
         {
             //Debug.Log("Wrong");
 			
@@ -76,22 +76,18 @@ public class MultipleChoiceQuestions : MonoBehaviour
             return; //if the maximum questions have been reached in a list
         }
 
-        questionCard.correctAnswer = questionArray.Question[currentQuestion].correctAnswer;
+        //questionCard.correctAnswer = questionArray.Question[currentQuestion].correctAnswer;
 
 
         questionText.text = questionArray.Question[currentQuestion].question; //using the previous line, it checks for the number of the question in the array of questions, which in turn updates text that is tied to this
         
         // questionCard.currentAnswer = questionArray.Question[currentQuestion].currentAnswer;
 
-        answerTexts[currentQuestion].text = questionArray.Question[currentQuestion].answers[currentQuestion]; //sets all 4 buttons
+        //answerTexts[currentQuestion].text = questionArray.Question[currentQuestion].answers[currentQuestion]; //sets all 4 buttons
 
-        for(int i = 0; i < 4; i++)
+        for(int i = 0; i < 4; i++) //this loop means that, starting with i is set equal to zero, do what is inside of it, so on start, increase  i by one, then do the thing, then add 1, until it reaches zero
         {
-            Debug.Log("1");
-            answerTexts[i].text = questionCard.answers[i];
-
-
-
+            answerTexts[i].text = questionArray.Question[currentQuestion].answers[i];
         }
         
 
@@ -100,8 +96,6 @@ public class MultipleChoiceQuestions : MonoBehaviour
     public void DebugButtonPressed(string reason) //debug, the string is assigned by the item, so it would help sort things
     {
         Debug.Log(questionCard.correctAnswer);
-
-
     }
 
 

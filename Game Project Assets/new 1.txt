@@ -1,0 +1,22 @@
+to do with question cards:
+
+set them to be called based on index (0,1,2,3,etc.) with around certain points basically a variable will match such as correctQuestionsAnswered = 4, it will load a special question from a non indexed list, 
+
+(please ask teacher if it is code callable, and not through the whole asset inspector thing)
+
+maybe like
+
+
+if correctAnswered = 4
+{
+	(load question [question name])
+	
+}
+
+then maybe go back to ones from a different index so like have multiple question indexes:
+
+multiple choice
+true/false
+yes/no
+
+and have buttons change based on those facts, so abcd would be generic 4 buttons, true false would have their own, same with yes and no.

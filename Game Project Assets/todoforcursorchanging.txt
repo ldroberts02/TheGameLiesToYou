@@ -1,0 +1,22 @@
+in another script,
+
+public SetCursor setCursor;
+
+THE FIRST ONE SHOULD BE THE NAME OF THE SCRIPT, so 
+
+setCursor is the name
+
+so it would be 
+
+public setCursor SetCursor;
+
+
+
+
+
+to visible in editor, then drag setcursor script
+
+then in code,
+
+func setCursor.cursorName = "(CURSORNAME HERE, STRING)";
+

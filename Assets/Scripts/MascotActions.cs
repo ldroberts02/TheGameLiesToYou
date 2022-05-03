@@ -15,6 +15,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+
+
+
+
+
 
 public class MascotActions : MonoBehaviour
 {
@@ -23,17 +29,28 @@ public class MascotActions : MonoBehaviour
     //default mood should be around 8, could always change based on how the algorithm works
     public bool MascotAngry = false;
 	public bool MascotHappy = true;
+    public bool MascotShock = false;
 	public Image MascotImage;
 	public Sprite MascotSprite;
 	//change to maybe a list for the texture 2d and make the naming less confusing
     public List<MascotTexture> MascotList;
     
+    public MultipleChoiceQuestions multipleChoiceQuestions;
+
+    public TMP_Text debugText;
+    public int debugMood;
+
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
 		MascotImage.sprite = MascotSprite;
 		Debug.Log(MascotSprite);
 		
+        debugText.SetText(debugMood.ToString()); //sets the text for the debug text number, to what the integer is.
         
 		if (MascotHappy && (MascotMood == 8)) //if mascothappy is true, and mascotmood is equal to 8, then do below this
 		{
@@ -57,16 +74,80 @@ public int getMascotIndex(string n) //n is local variable to call
     return 0;
 }    
 
-public void updateMascot()
+public void correctMascot()
 {
-    Debug.Log("updateMascot Called");
+    //Debug.Log("updateMascot Called");
     //MascotImage.sprite = MascotList[getMascotIndex("Sad")].spritefunction; //use this to call function based on mascotlist
     if((MascotMood > 4) && (MascotHappy == true))
     {
         MascotImage.sprite = MascotList[getMascotIndex("Happy")].spritefunction;
-        Debug.Log("CHANGED SPRITE TO HAPPY");
+        //Debug.Log("CHANGED SPRITE TO HAPPY");
+
+
     }
+    if((MascotMood > 4) && (MascotHappy == false))
+    {
+        MascotImage.sprite = MascotList[getMascotIndex("Default")].spritefunction;
+        //Debug.Log("CHANGED SPRITE TO DEFAULT");
+
+        
+    }
+
+    if(MascotAngry == true)
+    {
+        MascotAngry = false;
+        MascotImage.sprite = MascotList[getMascotIndex("Unimpressed")].spritefunction;
+    }
+
+
+    if(MascotMood < 8)
+    {
+        MascotMood += 1;
+        debugMood += 1;
+        debugText.SetText(debugMood.ToString()); //sets the text for the debug text number, to what the integer is.
+    }
+
+
+
 }
+
+public void wrongMascot()
+{
+    MascotMood -= 1;
+    debugMood -= 1;
+    //Debug.Log("WRONG UPDATED");
+    debugText.SetText(debugMood.ToString());
+    
+    if(MascotShock == false )
+    {
+        MascotImage.sprite = MascotList[getMascotIndex("Unhappy Shock")].spritefunction;
+
+    }
+
+    if(MascotHappy == true)
+    {
+        MascotImage.sprite = MascotList[getMascotIndex("Default")].spritefunction;
+    }
+
+    if(MascotShock == true)
+    {
+        MascotImage.sprite = MascotList[getMascotIndex("Mischievous")].spritefunction;
+    }
+
+
+    MascotHappy = false;
+    
+    
+}
+
+
+
+
+void Update()
+{
+   // MascotMood = debugMood;
+}
+
 
 }
 

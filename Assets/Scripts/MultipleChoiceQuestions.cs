@@ -13,69 +13,89 @@ using TMPro;
 
 public class MultipleChoiceQuestions : MonoBehaviour
 {
-    public TMP_Text questionText;
+    public TMP_Text questionText; //sets the question text outside of editor
     public List<TMP_Text> answerTexts;
-    public QuestionCard questionCard; //prob get rid of this, or rewrite any mention of it
+    public QuestionCard questionCard; //qcrd
     public int currentQuestion;
 
-    public MascotActions MascotActionsScript; //calls mascot actions script
+    public MascotActions MascotActionsScript; //msctactscr
 
-	public setCursor SetCursor;
-//calls setcursor.cs
-	public QuestionArray questionArray;
-//calls QuestionArray.cs
+	public setCursor SetCursor; //cscur
 
-    // Start is called before the first frame update
+	public QuestionArray questionArray; //csqary
+
+
+
+
     void Start()
     {
-        questionText.text = questionCard.question;
+        //questionCard = questionArray.Question[currentQuestion].correctAnswer;
+        
+        questionText.text = questionArray.Question[currentQuestion].question;
 
-        for(int i = 0; i < 4; i++)
+        for(int i = 0; i < 4; i++) //this loop means that, starting with i is set equal to zero, do what is inside of it, so on start, increase  i by one, then do the thing, then add 1, until it reaches zero
         {
-            answerTexts[i].text = questionCard.answers[i];
+
+            answerTexts[i].text = questionArray.Question[currentQuestion].answers[i];
         }
+        
+        
+
     }
 
 
-    public void ButtonPressed(int index) //for when the button is pressed, it should progress the question as well as consider it correct or incorrect, but it should not use currentQuestion ++; more than ONCE.
+    public void ButtonPressed(int buttonnum) //for when the button is pressed, it should progress the question as well as consider it correct or incorrect, but it should not use currentQuestion ++; more than ONCE.
     {
-        //Debug.Log(answerTexts[index].text);
+        //Debug.Log(answerTexts[buttonnum].text);
 
-        if (index == questionCard.correctAnswer)
+
+        if (buttonnum == questionArray.Question[currentQuestion].correctAnswer)
         {
-            Debug.Log("Correct");
+            //Debug.Log("Correct");
 			SetCursor.cursorName = "Gun";		
 		
-            MascotActionsScript.updateMascot();    
+            MascotActionsScript.correctMascot();    
 
-			//right here is code thats gonna check the question array, then check the question to update to, so array goes from 0 to 1, then updates text.
-			
-			//to call questionArray, use questionArray.Question[currentQuestion].(name of either question, answer, or something else)
+
         }
 
-        else if (index != questionCard.correctAnswer)
-        //here goes the raise mood by 1, max 8
+        else if (buttonnum != questionArray.Question[currentQuestion].correctAnswer)
         {
             //Debug.Log("Wrong");
 			
 			SetCursor.cursorName = "FlSword";	
 			
+            MascotActionsScript.wrongMascot();
             //here should go code that calls the MascotActions and lowers the mood by 1
         }
 
-        //below is what to do AFTER both right and wrong answers have been considered
 
         currentQuestion++; //increments the currentQuestion variable, which in turn allows for the next line to function
         if (currentQuestion >= questionArray.Question.Count)
         {
             return; //if the maximum questions have been reached in a list
         }
-        questionText.text = questionArray.Question[currentQuestion].question; //using the previous line, it checks for the number of the question in the array of questions, which in turn updates all text that is tied to this
 
-        for(int i = 0; i < 4; i++)
+        //questionCard.correctAnswer = questionArray.Question[currentQuestion].correctAnswer;
+
+
+        questionText.text = questionArray.Question[currentQuestion].question; //using the previous line, it checks for the number of the question in the array of questions, which in turn updates text that is tied to this
+        
+        // questionCard.currentAnswer = questionArray.Question[currentQuestion].currentAnswer;
+
+        //answerTexts[currentQuestion].text = questionArray.Question[currentQuestion].answers[currentQuestion]; //sets all 4 buttons
+
+        for(int i = 0; i < 4; i++) //this loop means that, starting with i is set equal to zero, do what is inside of it, so on start, increase  i by one, then do the thing, then add 1, until it reaches zero
         {
-            answerTexts[i].text = questionArray.Question[currentQuestion].answers[i]; //to call questionArray, use questionArray.Question[currentQuestion].(name of either question, answer, or something else)
+            answerTexts[i].text = questionArray.Question[currentQuestion].answers[i];
         }
+        
+
+    }
+
+    public void DebugButtonPressed(string reason) //debug, the string is assigned by the item, so it would help sort things
+    {
+        Debug.Log(questionCard.correctAnswer);
     }
 
 
